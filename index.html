@@ -1,0 +1,31 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>{{ site.title }}</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+  <link href='css/styles.css' rel='stylesheet' />
+</head>
+<body>
+  <div id='map'></div>
+  <script src='data.js'></script>
+
+
+  <script>
+  L.mapbox.accessToken = 'pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiNGxUd0FiRSJ9.W6JiC41LhSNbMQjuF3NGhA';
+  var map = L.mapbox.map('map', 'katydecorah.098626bb')
+  .setView([37.8, -96], 4);
+  map.scrollWheelZoom.disable();
+
+  var markers = L.mapbox.featureLayer().addTo(map);
+  markers.setGeoJSON(statesData);
+
+
+  </script>
+</body>
+</html>

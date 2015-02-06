@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.map-legend .swatch {
+  width: 33px;
+  height: 33px;
+  display: block;
+}
+.map-legend span {
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 10px;
+}
+.legend-key {
+  list-style: none;
+  padding: 0;
+}
+.legend-key li {
+  display: inline-block;
+  text-align: center;
+}
+.leaflet-popup-close-button {
+  display: none;
+}
+.leaflet-popup-content-wrapper {
+  pointer-events: none;
+}
+path.leaflet-clickable {
+  stroke-width: 1px;
+  stroke-dasharray: 3;
+}

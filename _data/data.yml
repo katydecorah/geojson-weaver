@@ -1,0 +1,255 @@
+- state: Alabama
+  medical_temporary:
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Alaska
+  medical_temporary:
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Arizona
+  medical_temporary: true
+  medical_permanent: true
+  religious:
+  philosophical: true
+- state: Arkansas
+  medical_temporary: true
+  medical_permanent:
+  religious: true
+  philosophical: true
+- state: California
+  medical_temporary: true
+  medical_permanent: true
+  religious:
+  philosophical: true
+- state: Colorado
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Connecticut
+  medical_temporary:
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Delaware
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: District of Columbia
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Florida
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Georgia
+  medical_temporary: true
+  medical_permanent:
+  religious: true
+  philosophical:
+- state: Hawaii
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Idaho
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Illinois
+  medical_temporary:
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Indiana
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Iowa
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Kansas
+  medical_temporary: true
+  medical_permanent:
+  religious: true
+  philosophical:
+- state: Kentucky
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Louisiana
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Maine
+  medical_temporary: true
+  medical_permanent:
+  religious: true
+  philosophical: true
+- state: Maryland
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Massachusetts
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Michigan
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Minnesota
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Mississippi
+  medical_temporary: true
+  medical_permanent: true
+  religious:
+  philosophical:
+- state: Missouri
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Montana
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Nebraska
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Nevada
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: New Hampshire
+  medical_temporary: true
+  medical_permanent:
+  religious: true
+  philosophical:
+- state: New Jersey
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: New Mexico
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: New York
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: North Carolina
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: North Dakota
+  medical_temporary:
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Ohio
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Oklahoma
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Oregon
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Pennsylvania
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Rhode Island
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: South Carolina
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: South Dakota
+  medical_temporary:
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Tennessee
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Texas
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Utah
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Vermont
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Virginia
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:
+- state: Washington
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: West Virginia
+  medical_temporary: true
+  medical_permanent: true
+  religious:
+  philosophical:
+- state: Wisconsin
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical: true
+- state: Wyoming
+  medical_temporary: true
+  medical_permanent: true
+  religious: true
+  philosophical:

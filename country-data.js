@@ -1,15 +1,6 @@
 ---
 ---
 
-{% assign total = 0 %}
-{% assign avg = 0 %}
-{% for s in site.data.countries %}{% for x in site.data.leave %}{% if s.country == x.country %}
-{% assign avg = avg | plus: x.leave %}
-{% assign total = total | plus: 1 %}
-{% endif %}{% endfor %}{% endfor %}
-{% assign avg = avg | divided_by: total %}
-
-
 var countryData = {
   "type": "FeatureCollection",
   "features": [{% for s in site.data.countries %}{% for x in site.data.leave %}{% if s.country == x.country %}

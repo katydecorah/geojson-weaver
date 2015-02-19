@@ -1,4 +1,5 @@
 ---
+# sample output for combining countries.yml with your data file
 ---
 
 var countryData = {

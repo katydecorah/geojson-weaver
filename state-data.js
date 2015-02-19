@@ -1,4 +1,5 @@
 ---
+# sample output for combining states.yml with your data file
 ---
 
 var statesData = {

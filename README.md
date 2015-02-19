@@ -1,26 +1,24 @@
-# Comparing vaccination coverage and the Measles outbreak
+# Shapes maker
 
-## Vaccination exemption data
+Combine your data with a GeoJSON countries or US states.
 
-* Estimated number and percentage* of children enrolled in kindergarten with exemption(s) from vaccination, by state/area and type of exemption — United States, 2013–14 school year http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6341a1.htm
+These files contain each country or US state and it's GeoJSON polygon (you shouldn't need to change these files):
 
-## Measles Outbreak 2015
+* [_data/countries.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/countries.yml)
+* [_data/states.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/states.yml)
 
-http://www.nytimes.com/interactive/2015/02/02/us/measles-facts.html
+Create a new `.yml` file in the `_data` folder with your data.
 
-State | Cases
-------|-----:
-[Arizona](http://www.azdhs.gov/measles/news.php) | 7
-[California](http://www.cdph.ca.gov/HealthInfo/discond/Pages/Measles.aspx) | 92
-[Colorado](https://www.colorado.gov/pacific/cdphe/measles) | 1
-[Illinois](http://www.dph.illinois.gov/news/one-confirmed-case-measles-illinois) | 1
-[Minnesota](http://www.health.state.mn.us/divs/idepc/diseases/measles/stats.html) | 1
-[Michigan](http://www.michigan.gov/mdch/0,4612,7-132-8347-346164--,00.html) | 1
-[Nebraska](http://dhhs.ne.gov/Pages/newsroom_newsreleases_2015_january_measles.aspx) | 2
-[New York](https://www.health.ny.gov/press/releases/2015/2015-01-30_measles.htm) | 1
-[Oregon](http://public.health.oregon.gov/DiseasesConditions/CommunicableDisease/Pages/fs-measles.aspx) | 1
-Pennsylvania | 1
-[South Dakota](http://doh.sd.gov/diseases/measles.aspx) | 13
-Texas | 1
-[Utah](http://udohnews.blogspot.com/2015/01/third-utah-resident-tests-positive-for.html) | 3
-Washington | 3
+Examples:
+
+* [_/data/leave.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/leave.yml) (references countries)
+* [_/data/vaccinations.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/vaccinations.yml) (references states)
+
+Your dataset much match the state/country name found in the `countries/states.yml` file.
+
+Create a `.js` file to loop, combine the data, and build the GeoJSON, see [country-data.js](https://github.com/katydecorah/shapes-maker/blob/master/country-data.js) for an example and [index.html](https://github.com/katydecorah/shapes-maker/blob/master/index.html) to load the GeoJSON on a map.
+
+---
+
+Country GeoJSON from https://github.com/johan/world.geo.json
+State GeoJSON from Mapbox

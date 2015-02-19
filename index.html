@@ -9,22 +9,72 @@
   <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
   <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
-  <link href='css/styles.css' rel='stylesheet' />
+  <style>
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .legend label{
+    display: block;
+    font-size: 9px;
+    color:#808080;
+    clear: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  label span {
+    display: block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 5px;
+  }
+  path.leaflet-clickable {
+    stroke-width: 1px;
+    stroke-dasharray: 3;
+  }
+</style>
 </head>
 <body>
   <div id='map'></div>
-  <script src='data.js'></script>
+
+  <div id='legend' style='display:none;'>
+    <strong>Paid leave from work for mothers</strong>
+    <nav class='legend clearfix'>
+
+      <label><span style='background:#aad8f1;'></span> Up to six months paid leave (26 weeks)</label>
+      <label><span style='background:#4bc6df;'></span> Six month to one year (26 -52 weeks)</label>
+      <label><span style='background:#197caa;'></span> One year or more (52.1 weeks or more)</label>
+
+      <small>Source: <a href="http://www.theguardian.com/us-news/2014/dec/03/-sp-america-only-developed-country-paid-maternity-leave">The Guardian</a></small>
+    </nav>
+  </div>
+  <script src='country-data.js'></script>
 
 
   <script>
   L.mapbox.accessToken = 'pk.eyJ1Ijoia2F0eWRlY29yYWgiLCJhIjoiNGxUd0FiRSJ9.W6JiC41LhSNbMQjuF3NGhA';
-  var map = L.mapbox.map('map', 'katydecorah.098626bb')
-  .setView([37.8, -96], 4);
+  var map = L.mapbox.map('map', 'katydecorah.098626bb');
+
   map.scrollWheelZoom.disable();
 
   var markers = L.mapbox.featureLayer().addTo(map);
-  markers.setGeoJSON(statesData);
 
+  markers.setGeoJSON(countryData);
+
+  map.fitBounds(markers.getBounds());
+
+  //https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-legend/
+  map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 
   </script>
 </body>

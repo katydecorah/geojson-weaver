@@ -7,16 +7,14 @@ These files contain each country or US state and it's GeoJSON polygon (you shoul
 * [_data/countries.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/countries.yml)
 * [_data/states.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/states.yml)
 
-Create a new `.yml` file in the `_data` folder with your data.
+Create a new `.yml` file in the `_data` folder with your data. Your dataset much match the state/country name found in the `countries/states.yml` file.
 
 Examples:
 
 * [_/data/leave.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/leave.yml) (references countries)
 * [_/data/vaccinations.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/vaccinations.yml) (references states)
 
-Your dataset much match the state/country name found in the `countries/states.yml` file.
-
-Create a `.js` file to loop, combine the data, and build the GeoJSON, see [country-data.js](https://github.com/katydecorah/shapes-maker/blob/master/country-data.js) for an example and [index.html](https://github.com/katydecorah/shapes-maker/blob/master/index.html) to load the GeoJSON on a map.
+Create a `.js` file to loop, combine the data, and build the GeoJSON, see [country-data.js](https://github.com/katydecorah/shapes-maker/blob/master/country-data.js) or [state-data.js](https://github.com/katydecorah/shapes-maker/blob/master/state-data.js) for examples on how to build the loop. The output is [GeoJSON](http://katydecorah.com/shapes-maker/country-data.js) of just your dataset. See [index.html](https://github.com/katydecorah/shapes-maker/blob/master/index.html) for an example to load the GeoJSON on a map.
 
 ---
 

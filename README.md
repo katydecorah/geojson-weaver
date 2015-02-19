@@ -1,13 +1,13 @@
 # Shapes maker
 
-Combine your data with a GeoJSON countries or US states.
+Combine your data with GeoJSON polygons of countries or US states.
 
-These files contain each country or US state and it's GeoJSON polygon (you shouldn't need to change these files):
+These files contain each country or US state its polygon coordinates (you shouldn't need to change these files):
 
 * [_data/countries.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/countries.yml)
 * [_data/states.yml](https://github.com/katydecorah/shapes-maker/blob/master/_data/states.yml)
 
-Create a new `.yml` file in the `_data` folder with your data. Your dataset much match the state/country name found in the `countries/states.yml` file.
+Create a new `.yml` file in the `_data` folder with your data. Each entry must match the state/country name found in the `countries/states.yml` file.
 
 Examples:
 

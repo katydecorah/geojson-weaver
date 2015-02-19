@@ -20,5 +20,5 @@ Create a `.js` file to loop, combine the data, and build the GeoJSON, see [count
 
 ---
 
-Country GeoJSON from https://github.com/johan/world.geo.json
-State GeoJSON from Mapbox
+* Country GeoJSON from https://github.com/johan/world.geo.json
+* State GeoJSON from Mapbox

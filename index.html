@@ -62,8 +62,8 @@
 
 
   <script>
-  L.mapbox.accessToken = '<your access token here>';
-  var map = L.mapbox.map('map', 'mapbox.light');
+  L.mapbox.accessToken = '{{site.accesstoken}}';
+  var map = L.mapbox.map('map', 'mapbox.light').setView([6.2, 36.3], 2);
 
   map.scrollWheelZoom.disable();
 
@@ -71,9 +71,8 @@
 
   markers.setGeoJSON(countryData);
 
-  map.fitBounds(markers.getBounds());
+  //map.fitBounds(markers.getBounds());
 
-  //https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-legend/
   map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 
   </script>

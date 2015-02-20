@@ -1,4 +1,4 @@
-# Shapes maker
+# GeoJSON weaver
 
 Use Jekyll to combine your data with GeoJSON polygons of countries or US states.
 
